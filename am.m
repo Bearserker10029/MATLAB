@@ -36,7 +36,7 @@ end;
 dem=filter(num,den,dem);
 %
 
-dem=2*dem-2*2,9; %ajuste de nivel dc y sele da una ganancia de dos
+dem=2*dem-2*2.9; %ajuste de nivel dc y sele da una ganancia de dos
 subplot(3,1,3)
 plot(t,dem);
 grid
