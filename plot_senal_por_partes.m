@@ -1,3 +1,6 @@
+clear;
+close all;
+% Definir la señal por partes
 t = -2:0.01:10;
 
 % Definir cada segmento
