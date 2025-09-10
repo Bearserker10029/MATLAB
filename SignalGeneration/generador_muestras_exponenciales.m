@@ -46,5 +46,5 @@ legend('Experimental Histogram', 'Theoretical PDF');
 hold off;
 % ================================================================ END =============================================================
 pk= exp(-lambda*(20-binSize))-exp(-lambda*20)
-N_samples=1/pk
+N_samples=1/pk;
 ratio=num_samples/N_samples;
