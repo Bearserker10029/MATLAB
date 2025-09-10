@@ -29,8 +29,8 @@ s=m*n;
 for i=1:s
     if dem(i)<=0
         dem(i)=0;
-       end;
-end;
+    end
+end
 
 [num,den] = butter(10,200*2/fmu)
 dem=filter(num,den,dem);
