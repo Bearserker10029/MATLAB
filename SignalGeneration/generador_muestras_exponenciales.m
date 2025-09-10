@@ -1,10 +1,10 @@
-clear all;
-close all;
+clear all
+close all
 clc
 rng(20202132);
 % ====================================================== DEFINE PARAMETERS =========================================================
 num_samples = 1e6;
-binSize = 1;
+binSize = 0.01;
 theoretical_exponential_samples_mean = 2;
 % ==================================================================================================================================
 lambda = 1/theoretical_exponential_samples_mean;
@@ -45,3 +45,6 @@ legend('Experimental Histogram', 'Theoretical PDF');
 
 hold off;
 % ================================================================ END =============================================================
+pk= exp(-lambda*(20-binSize))-exp(-lambda*20)
+N_samples=1/pk
+ratio=num_samples/N_samples
