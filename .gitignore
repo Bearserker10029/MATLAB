@@ -1,0 +1,74 @@
+# MATLAB .gitignore
+# Compiled MEX binaries (all platforms)
+*.mex*
+*.mexw*
+*.mexa*
+*.mexglx*
+*.mexmaci*
+*.mexmaci64*
+
+# Simulink Code Generation
+slprj/
+sccprj/
+
+# MATLAB Code Generation
+codegen/
+
+# Autosave and backup files
+*.asv
+*.m~
+*.autosave
+*.bak
+*.sdr
+
+# MATLAB temporary files
+*.log
+*.temp
+*.tmp
+*.cpt
+
+# MATLAB preferences and history
+matlab.prf
+history.m
+.matlab/
+
+# Simulink cache files
+*.slxc
+*.slxp
+*.slx.original
+
+# Octave session info
+octave-workspace
+
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Generated helpsearch folders
+helpsearch*/
+
+# Figures and generated output (adjust as needed)
+*.fig
+*.pdf
+*.eps
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.tiff
+
+# Data files (if not part of the repository)
+*.mat
+*.dat
+
+# Project-specific files
+.project
+.metadata/
+.settings/
+
+# User-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
